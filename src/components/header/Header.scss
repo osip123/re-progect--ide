@@ -1,0 +1,27 @@
+header {
+    padding: 25px;
+    .logo{
+        svg {
+            color: #e7e7e8;
+            height: 50px;
+            width: 50px;
+        }
+    }
+    nav{
+        a{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            width: 200px;
+            border-radius: 18px;
+        }
+
+        .active{
+            background-color: #26282c;
+            height: 100%;
+            width: 200px;
+            border-radius: 18px;
+        }
+    }
+}
